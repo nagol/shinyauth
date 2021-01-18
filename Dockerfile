@@ -12,7 +12,6 @@ RUN apt-get update -qq \
         libhdf4-alt-dev \
         libhdf5-dev \
         libjq-dev \
-        liblwgeom-dev \
         libpq-dev \
         libproj-dev \
         libprotobuf-dev \
@@ -40,4 +39,5 @@ RUN apt-get update -qq \
         tidyquant \
         plotly \
         ggdark \
-    && installGithub.r business-science/shinyauthr
+    && installGithub.r business-science/shinyauthr \
+      r-spatial/lwgeom
