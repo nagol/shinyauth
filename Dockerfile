@@ -39,5 +39,5 @@ RUN apt-get update -qq \
         remotes \
         tidyquant \
         plotly \
+        ggdark \
     && installGithub.r business-science/shinyauthr
-        
