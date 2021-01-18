@@ -39,5 +39,6 @@ RUN apt-get update -qq \
         tidyquant \
         plotly \
         ggdark \
+        here \
     && installGithub.r business-science/shinyauthr \
       r-spatial/lwgeom
